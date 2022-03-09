@@ -1,11 +1,11 @@
 # COMP551---Miniproject-3-Classification-of-Image-Data-
-##Background
+## Background
 In this miniproject, you will implement a multilayer perceptron from scratch, and use it to classify image data.
 The goal is to implement a basic neural network and its training algorithm from scratch and get hands-on experience
 with important decisions that you have to make while training these models. You will also have a chance to experiment
 with convolutional neural networks.
 
-##Task 1: Acquire the data
+## Task 1: Acquire the data
 Your first task is to acquire the image dataset. You will be using only one dataset in your experiments: Fashion-
 MNIST. Use the Fashion-MNIST dataset with the default train and test partitions. You can use existing machine learning libraries to load the dataset. Note that while working with multilayer perceptrons, after loading the data, you
 will have to vectorize it so that it can have the appropriate dimensions. Also do not forget to normalize the training
@@ -14,7 +14,7 @@ Based on your previous miniprojects, you might be asking the question: where are
 point of using neural nets: instead of hand-designing the features, you train the model so that the feature extractor is
 also learned together with the classifier on top.
 
-##Task 2: Implement a Multilayer Perceptron
+## Task 2: Implement a Multilayer Perceptron
 In this mini-project, you will implement a multilayer perceptron (MLP) to classify image data. An MLP is composed
 of three types of layers: (1) an input layer, (2) hidden layers, (3) an output layer (see Figure 1). You should implement
 it from scratch based on the code available in the slides. Your implementation should include the backpropagation and
@@ -39,7 +39,7 @@ output the accuracy score.
 You are also free to use any Python libraries you like to tune the hyper-parameters; see for example https://
 scikit-learn.org/stable/modules/grid_search.html.
 
-##Task 3: Run the experiments and report
+## Task 3: Run the experiments and report
 The goal of the experiments in this part is to have you explore the consequences of important decisions made while
 training neural networks. Split the dataset into training and test sets. Use test set to estimate performance in all of the
 experiments after training the model with training set. Evaluate the performance using accuracy. You are welcome to
